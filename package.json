@@ -1,0 +1,9 @@
+{
+  "name": "zenn",
+  "repository": "https://github.com/KazukiHayase/zenn.git",
+  "author": "KazukiHayase <kazuki.engineer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "zenn-cli": "^0.1.140"
+  }
+}
