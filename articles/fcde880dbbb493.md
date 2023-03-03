@@ -8,6 +8,7 @@ topics:
   - "s3"
 published: true
 published_at: "2021-07-14 21:06"
+publication_name: "buyselltech"
 ---
 
 # 概要
