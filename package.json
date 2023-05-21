@@ -3,6 +3,10 @@
   "repository": "https://github.com/KazukiHayase/zenn.git",
   "author": "KazukiHayase <kazuki.engineer@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "preview": "zenn preview",
+    "new:article": "zenn new:article"
+  },
   "dependencies": {
     "zenn-cli": "^0.1.140"
   }
