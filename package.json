@@ -5,9 +5,11 @@
   "license": "MIT",
   "scripts": {
     "preview": "zenn preview",
-    "new:article": "zenn new:article"
+    "new:article": "zenn new:article",
+    "format": "prettier --write ./articles/**/*.md"
   },
   "dependencies": {
+    "prettier": "^2.8.8",
     "zenn-cli": "^0.1.140"
   }
 }
