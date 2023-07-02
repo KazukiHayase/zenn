@@ -13,9 +13,9 @@ published: false
 作成した拡張機能のリポジトリは下記になります。
 https://github.com/KazukiHayase/gh-requested-prs
 
-# 作ったもの
+# デモ
 
-TODO: 動画
+![](/images/ee9d5010bb8ffd/demo.gif)
 
 # 実装の紹介
 
