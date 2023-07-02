@@ -1,0 +1,23 @@
+name: Create PR
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        type: string
+
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ inputs.branch }}
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: main
+          branch: ${{ inputs.branch }}
