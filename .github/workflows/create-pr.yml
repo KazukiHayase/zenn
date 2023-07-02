@@ -19,4 +19,4 @@ jobs:
           commit-message: update authors
           title: Update AUTHORS
           body: Credit new contributors by updating AUTHORS
-          branch: update-authors
+          branch: update-authors-2
