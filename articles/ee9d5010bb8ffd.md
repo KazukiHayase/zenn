@@ -2,8 +2,8 @@
 title: "レビュー依頼されているすべてのPRブラウザで開く GitHub CLI の拡張機能を Go 作った"
 emoji: "🤖"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
-published: false
+topics: ["githubcli", "github", "cli", "go", "graphql"]
+published: true
 ---
 
 自分は普段、1 日平均 20 個程の PR レビューをしており、基本的にはレビュー依頼が来たら即レビューをしています。しかし、MTG の最中などにレビュー依頼が来た場合は、即レビューができずどうしてもレビュー依頼が溜まってしまいます。レビュー依頼が溜まると、レビュー漏れが発生しやすくなったり、全ての PR を一々ブラウザで開くのが面倒臭く感じてました。
