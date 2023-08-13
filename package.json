@@ -6,7 +6,7 @@
   "scripts": {
     "preview": "zenn preview",
     "new:article": "zenn new:article",
-    "format": "prettier --write ./articles/**/*.md"
+    "format": "prettier --write"
   },
   "dependencies": {
     "prettier": "^2.8.8",
