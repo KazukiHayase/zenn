@@ -7,7 +7,7 @@ prettier@^2.8.8:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.8.tgz#e8c5d7e98a4305ffe3de2e1fc4aca1a71c28b1da"
   integrity sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==
 
-zenn-cli@^0.1.140:
-  version "0.1.140"
-  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.140.tgz#8b6ef2a8d1d03b9ea31f97256ff852630f2a6674"
-  integrity sha512-fcMxd5DHeZeaVkeD1qUoKOgE3gNf1E8+Yh8Kb4hCVIiiwuPR4SOI0uCcno7aeD6LH7OSSymzn0clEdx/QrUhlQ==
+zenn-cli@^0.1.148:
+  version "0.1.148"
+  resolved "https://registry.yarnpkg.com/zenn-cli/-/zenn-cli-0.1.148.tgz#279bc4600788a10c5b24ecc1f5683104069d0bda"
+  integrity sha512-q4c3W6HOJZzX+Ce/7d4vBm5iY2G8j5o+d5P04BuxE5U9rg2qOrZS9PJEIFk9QktJ7BwJ6RjxkGiQI+rnGx/BIw==
