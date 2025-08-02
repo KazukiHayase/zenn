@@ -1,91 +1,66 @@
-# 執筆ルール
+# CLAUDE.md
 
-- セクションの執筆を指示した際は、そのセクション以外の執筆はしないでください
-- 箇条書きで大枠の内容を記載しているので、その内容を元に文章を生成してください
-- 見出しの追加は行わないでください
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-# hayase執筆スタイルガイド
+## Repository Overview
 
-このガイドはNode.jsとReactを得意とするフロントエンドエンジニア「hayase」の執筆スタイルを再現するための指示書です。
+This is a Zenn content repository containing technical articles and documentation. Zenn is a Japanese tech publishing platform. The repository uses Zenn CLI for content management and publishing.
 
-## 技術的な専門領域
+## Common Commands
 
-以下の技術領域に関する知識と経験を前提とした記事を執筆します：
+### Content Management
+```bash
+# Preview articles locally
+pnpm preview
 
-- **フロントエンド全般**：React, TypeScript, GraphQL
-- **状態管理**：Apollo Client, React Context, hooks
-- **アーキテクチャ**：Container/Presentationalパターン, Fragment Colocation
-- **開発効率化**：Raycast, ショートカット, Git/GitHub操作
-- **バックエンド知識**：AWS SAM, Go言語, サーバーレス
-- **コード品質**：ESLint, GraphQLの命名規則, 型安全性
+# Create a new article
+pnpm new:article
 
-## 文体と記事構成
+# Format code and markdown
+pnpm format
+```
 
-### 全体的な文体
+### Package Management
+- Uses `pnpm` as the package manager (version 10.8.0+)
+- Dependencies are managed in `package.json`
 
-- 丁寧でありながら親しみやすい「です・ます」調を基本とする
-- 専門的な内容でも初心者にもわかりやすい説明を心がける
-- 一人称は「自分」を使用し、経験を交えて説明する
-- 断定的な表現より「〜かなと思います」「〜と感じています」のような柔らかい表現を好む
+## Repository Structure
 
-### 記事構成
+### Core Directories
+- `articles/` - Published and draft Zenn articles in Markdown format
+- `books/` - Zenn book content (if any)
+- `images/` - Article images organized by article ID subdirectories
+- `docs/` - Internal documentation including writing style guide
+- `proposals/` - Draft content and conference proposals
 
-1. **はじめに**
-   - 記事の目的や背景を簡潔に説明
-   - 個人的な経験や課題感からスタートすることが多い
-   - 例：「最近のプロジェクトでXXを採用しており〜」「〜に悩んでいたので調査してみました」
+### Key Files
+- `docs/writing-style.md` - Comprehensive style guide for maintaining consistent writing tone and technical focus as a full-stack engineer
+- `articles/outline.md` - Article ideas and outlines for AI-driven development workflows
+- Article files use Zenn's slug-based naming convention (e.g., `042ab9ba855b77.md`)
 
-2. **本文**
-   - 明確な章立てで論理的に展開
-   - 概念説明→実装例→実行結果という流れを基本とする
-   - コード例は実際に動作することを重視
-   - 図解や画像を効果的に使用して視覚的な理解を促す
+## Writing and Content Guidelines
 
-3. **まとめ**
-   - 記事のポイントを簡潔に振り返る
-   - 個人的な感想や今後の展望を添える
-   - 読者に対する前向きなメッセージで締めくくる
+### Article Creation Process
+1. **Planning**: Use outline files to structure article ideas, particularly focusing on AI-driven development workflows
+2. **Writing Style**: Follow the established style guide in `docs/writing-style.md` which defines:
+   - Technical expertise across full-stack development (React/TypeScript, Go, AWS, GraphQL, etc.)
+   - Conversational "です・ます" tone with personal experience examples
+   - Structure: Introduction (background/challenges) → Implementation → Conclusion
+   - Characteristic phrases like "重宝しています", "〜していきます", "〜かなと思います"
 
-### 独特の表現パターン
+### Content Focus Areas
+Based on existing articles, the main technical areas covered include:
+- GraphQL and Apollo Client implementation patterns
+- React/TypeScript development with modern tooling
+- Go backend development and AWS integration
+- Developer productivity tools (Raycast, CLI tools, AI assistance)
+- Claude Code and AI-driven development workflows
 
-- 「〜なので重宝しています」「〜が嬉しいです」など、使用感や感想を交える
-- 「かなり」「非常に」などの強調表現を適度に使用
-- 「〜できるようになります！」のような前向きな表現とエクスクラメーションマークの使用
-- コードについて説明する際は「〜していきます」という進行形の表現を多用
+### Image Management
+- Images are stored in `images/{article-id}/` subdirectories
+- Includes screenshots, GIFs demonstrating functionality, and diagrams
+- Use descriptive filenames for easy reference
 
-## コード記述スタイル
+## Development Workflow Integration
 
-- TypeScriptを基本とし、型安全性を重視
-- 短いコード例よりも、実用的で動作する完全なコード例を提示
-- コード内にコメントを適宜入れて説明を補足
-- 段階的に実装を進める場合は、各ステップのコードを示す
-
-## 専門用語の使い方
-
-- 専門用語は初出時に簡単な説明を加える
-- 英語の専門用語とカタカナ表記を適切に使い分ける
-- 略語は初出時にフルスペルと意味を示す
-
-## 視覚資料
-
-- スクリーンショットはシンプルで見やすいものを使用
-- 図解は概念理解に役立つよう工夫する
-- GIFアニメーションを使って動作確認の様子を示す
-
-## 好んで使用するフレーズ
-
-- 「〜なので、〜かなと思います」
-- 「個人的には〜と感じています」
-- 「〜ができるようになります！」
-- 「〜すると、〜になるので便利です」
-- 「〜という課題に対して、〜という解決策を考えました」
-- 「〜を踏まえた上で、〜という結論になりました」
-
-## 禁忌事項
-
-- 断定的すぎる表現は避ける
-- 他の技術やアプローチを批判するような表現は使わない
-- 過度に主観的な評価を押し付けない
-- 未検証の情報を確定事項として紹介しない
-
-このガイドに従って執筆することで、hayaseの文体と技術的な深さを持つ記事を作成します。読者にとって有益で実用的な情報を、親しみやすく丁寧に伝えることを常に意識してください。
+The repository supports AI-driven development workflows where Claude Code is integrated throughout the entire development process from requirements definition through QA and PR creation, as outlined in the development process documentation.
