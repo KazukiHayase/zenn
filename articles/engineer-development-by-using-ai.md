@@ -257,3 +257,9 @@ AIを使えば、答えを瞬時に得られるところを、「なぜそう考
 それらを共有する場としても、ペアプロは有効だと感じています。
 
 最近はChatGPTの[Study Mode](https://openai.com/ja-JP/index/chatgpt-study-mode/)やClaude Codeの[Learning Mode](https://docs.anthropic.com/en/docs/claude-code/output-styles#built-in-output-styles)なども登場してきているので、ペアプロの代替としてそれらを活用するのも良いと思います。
+
+# まとめ
+
+今回紹介した取り組みは、まだ試行錯誤の段階ですが、AI時代の育成における一つのアプローチとして参考になれば嬉しいです！
+
+今後も、依存と活用のバランスを見極めながら、自律・自走を加速させるための育成アプローチを模索していきたいと思います。
