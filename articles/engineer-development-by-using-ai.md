@@ -3,7 +3,7 @@ title: "AI時代のエンジニア育成 - 依存ではなく活用を促進す�
 emoji: "🤖"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["ai", "management", "育成", "新卒"]
-published: false
+published: true
 publication_name: "drsprime"
 ---
 
