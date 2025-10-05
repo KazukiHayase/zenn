@@ -3,7 +3,8 @@ title: "go testのキャッシュの仕組みを理解して、テストコー�
 emoji: "🚀"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["go", "test", "githubactions", "ci"]
-published: false
+published: true
+published_at: 2025-10-06 07:30
 publication_name: "drsprime"
 ---
 
