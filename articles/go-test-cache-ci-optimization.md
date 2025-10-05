@@ -2,7 +2,7 @@
 title: "go testのキャッシュの仕組みを理解して、テストコード変えずにCIを高速化する"
 emoji: "🚀"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["go", "test", "githubactions", "ci"]
+topics: ["go", "test", "githubactions", "ci", "zennfes2025free"]
 published: true
 published_at: 2025-10-06 07:30
 publication_name: "drsprime"
